@@ -103,6 +103,7 @@
     cursor: pointer;
     border: none;
     color: var(--blanco-1);
+    text-align: center;
 }
 
 .boton:hover{
@@ -140,8 +141,7 @@
 
 @media (max-width: 650px) {
     .contenedor-experiencias-h2{
-        font-size: 1rem;
-        color: var(--primary-color);
+        display: none;
     }
 
     .contenedor-experiencias-p{
@@ -183,12 +183,12 @@
 
 .titulo-1{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .precio{
-    font-size: 2.6rem;
-    font-weight: 800;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .porpersona{
